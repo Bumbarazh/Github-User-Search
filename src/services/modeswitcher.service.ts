@@ -11,7 +11,7 @@ export class ModeswitcherService {
   constructor() {
     this.style = document.createElement('link');
     this.style.rel = 'stylesheet';
-    this.style.href = `../assets/styles/${this.theme}.css`;
+    this.style.href = `/assets/styles/${this.theme}.css`;
     document.head.append(this.style);
    }
 
@@ -20,10 +20,10 @@ export class ModeswitcherService {
 
     if (value === 'DARK') {
       button.value = 'LIGHT';
-      this.style.href = `../assets/styles/dark-mode.css`;
+      this.style.href = `/assets/styles/dark-mode.css`;
     } else {
       button.value = 'DARK';
-      this.style.href = `../assets/styles/light-mode.css`;
+      this.style.href = `/assets/styles/light-mode.css`;
     }
    }
 }
