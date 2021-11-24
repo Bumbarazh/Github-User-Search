@@ -1,0 +1,21 @@
+<form #myForm="ngForm" (ngSubmit)=onSubmit(myForm)>
+    <div id="input-field">
+        <img src="../../../assets/images/icon-search.svg"
+        alt="Search Icon" 
+        width="20.05px" 
+        height="20px"
+         id="search-icon">
+        <input type="text" 
+        placeholder="Search GitHub username…"
+        id="text-input"
+         size="22"
+         name="nick"
+         (focus)="onInputFocus()"
+         ngModel>
+        <p class="no-user" *ngIf="noUser">{{noUser}}</p>
+        <input type="submit"
+        value="SEARCH"
+        id='search-button'
+        class="{{ noUser ? 'error-button' : 'button'}}">
+    </div>
+</form>
