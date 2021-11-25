@@ -43,7 +43,7 @@ body {
         padding-right: 36px;
         margin: 0;
         color: #4B6A9B;
-        background: url('assets/images/icon-moon.svg') no-repeat right;
+        background: url('../../images/icon-moon.svg') no-repeat right;
         border: none;
         font-family: 'Space Mono', monospace;
     }
