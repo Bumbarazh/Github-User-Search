@@ -42,7 +42,7 @@ body {
         padding-right: 36px;
         margin: 0;
         color: #fff;
-        background: url('assets/images/icon-sun.svg') no-repeat right;
+        background: url('../images/icon-sun.svg') no-repeat right;
         border: none;
         font-family: 'Space Mono', monospace;
     }
@@ -290,7 +290,7 @@ body {
         padding-right: 36px;
         margin: 0;
         color: #fff;
-        background: url('assets/images/icon-sun.svg') no-repeat right;
+        background: url('../images/icon-sun.svg') no-repeat right;
         border: none;
         font-family: 'Space Mono', monospace;
     }
@@ -557,7 +557,7 @@ body {
         padding-right: 36px;
         margin: 0;
         color: #fff;
-        background: url('assets/images/icon-sun.svg') no-repeat right;
+        background: url('../images/icon-sun.svg') no-repeat right;
         border: none;
         font-family: 'Space Mono', monospace;
     }
